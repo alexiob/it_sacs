@@ -1,0 +1,65 @@
+{
+    "server": {
+        "type": "telnet",
+        "options": {
+            "port": 4223,
+            "tty": true
+        }
+    },
+
+    "screen": {
+        "title": "IT S.Ac.S.",
+        "options": {
+            "smartCSR": true,
+            "dockBorders": true,
+            "input": null,
+            "output": null,
+            "terminal": "xterm-256color",
+            "fullUnicode": true,
+            "cursor": {
+                "artificial": true,
+                "shape": "block",
+                "blink": true,
+                "color": "white"
+            }
+        }
+    },
+
+    "prompt": "what? > ",
+    "historyLength": 100,
+    "path": {
+        "users": "./data/users.json",
+        "reports": "./data/reports.json",
+        "messages": "./static/messages.txt",
+        "emailReportTemplate": "./static/report.txt",
+        "emailSpamTemplate": "./static/spam.txt"
+    },
+    "locations": {
+        "start": "lobby",
+        "registration": {
+            "questions": ["registration-question-username", "registration-question-password", "registration-question-email"],
+            "randomQuestions": ["registration-question-color", "registration-question-place", "registration-question-beloved"],
+            "numRandomQuestions": 2,
+            "npcName": "Mrs\\.\\s*Guiltford"
+        }
+    },
+    "banners": [
+        {"id":"it-sacs", "font":"colossal", "text":"I.T. S.Ac.S."},
+        {"id":"zap", "font":"speed", "text":"ZZzzappp!!!!"}
+    ],
+    "unknownMessagesCount": 3,
+    "sponsorMessagesCount": 3,
+    "spamMessagesCount": 3,
+    "interviewRate": 25,
+    "email": {
+        "config": {
+            "host": "smtp.gmail.com",
+            "port": 465,
+            "secure": true, // use SSL
+            "auth": {
+                "user": "",
+                "pass": ""
+            }
+        }
+    }
+}

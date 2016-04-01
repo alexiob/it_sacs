@@ -1,0 +1,14 @@
+Automatic Reporting
+
+Protocol #: {protocolNumber}
+
+{report}
+
+TOTAL: ${total}
+
+!!!! FRAUDOLENT RECORDS DETECTED: {wrongRecords} !!!!
+
+Share and Enjoy!
+
+---
+Eccentrico Gallumbis || Accounting Officer || Sirius Cybernetics Corporation || ++42 555 NO-COMPLAINS (phone) || Eccentrico.Gallumbis.SCC (sub-eta)

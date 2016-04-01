@@ -1,0 +1,364 @@
+//*****************************************
+// COMMON
+//*****************************************
+#status-top-1
+I.T. S.Ac.S. - (c) 2016 Sirius Cybernetics Corporation & Alessandro Iob
+
+#system-who
+{cyan-bg}{white-fg}      I.T. S.Ac.S. Users List      {/}
+%s
+
+#command-unknown-1
+I am really really sorry, but a mysterious interference in the sub-eta fields made your last command even more unintelligible than usual. Please, can you repeat and make me happy? Can you? Please? Yesss?? Pleeease?
+
+#command-unknown-2
+Nana nanaa naaana. Blah blah blah. Yatta yatta yatta. Chitty chatty chutty. Mmmmmm.... eehh....what?
+
+#command-unknown-3
+Careful about what you say, some times inter-dimensional eddies transport your words in most inconvenient places and times. Wars have been started, civilizations have been destroyed and TV shows have been canceled cause of such events.
+
+#yell-response
+Your words have been kindly translated and transmitted thanks to our sponsors!
+
+#say-response
+Your message has been securely delivered! The NSA thanks for using its services.
+
+#quit
+Remember: do not panic!
+
+#user-quits
+%s has been fed to the Ravenous Bugblatter Beast of Traal. It is quite happy now!
+
+//*****************************************
+// LOBBY
+//*****************************************
+#lobby-welcome
+{magenta-fg}{bold}I(nteractive) T(erminal) S(creening) Ac(counting) S(ystem){/}
+
+
+
+The {cyan-fg}{bold}Sirius Cybernetics Corporation{/} in collaboration with {cyan-fg}{bold}Alessandro Iob{/bold}{/} is proud to announce a new revolutionary artificial intelligence based accounting system.
+
+Our marketing department and engineers have found a way to make your accounting experience more lifelike than ever before using Genuine People Personalities (GPP's).
+
+Your computer will now be able to understand your erratic and unstable emotions because it will have its own preset range of emotions. A few of the personality styles we have to offer are cheerful, gloomy, paranoid, and nurturing. There is a GPP that is ideal for every situation. The integration of emotionally aware systems is proven to improve the fun of the user, their educational experience, comfort level, and ability to improve the user's work-flow.
+
+We are really really excited about this new product! It will revolutionize your work life!!
+
+Enjoy and share!
+---
+
+#lobby-status-top
+{magenta-fg}{bold}The Lobby.{/} - I.T. S.Ac.S. - (c) 2016 Sirius Cybernetics Corporation & Alessandro Iob
+
+#lobby-description
+{magenta-fg}{bold}The Lobby.{/}
+
+You are in the system's lobby and, I must say, it is and incredible technology achievement. The best of the latest UI/UX design patterns have been applied using the renowned Italian "gusto"! A real joy and pleasure for every respectful software engineer. State of the art is and understatement!
+
+From here you can go to the accounting management desk, to the customer registration office or to through the exit. Yes, that slick, frictionless, total black awesomeness is the exit!
+
+Oh yes, there is also a black-on-black Massive Damage's TZ-141 Mark 7 robotic guard! It looks quite impressive as well! Especially when somebody stares at it from the wrong side of its Disrupt-O-Matic Mega-Zap V3 gun. {bold}Not unlikely as you are doing it right now!{/bold}
+
+#lobby-description-restart
+{yellow-fg}Bing! Bing!{/}
+
+{yellow-fg}We are happy to inform you that, in compliance with our customer retention and satisfaction program, we have recently installed a Satimesfection 4000(TM) device: using telepathic resonance, it is able to detect customers' high stress levels and immediately reset their experience to a more pleasant level.{/}
+
+{yellow-fg}Enjoy a nice day, over and over again!{/}
+
+{yellow-fg}Bing! Bing!{/}
+---
+
+#lobby-enter
+~={"timeout":1};{white-fg}{moodIcon} Jeltz:{/} "I {bold}Jeltz{/} am!"
+~{white-fg}{moodIcon} Jeltz:{/} "I unit {bold}TZ-141 Mark 7{/} am!"
+~{white-fg}{moodIcon} Jeltz:{/} "I guard am!"
+~{white-fg}{moodIcon} Jeltz:{/} "I information protect!"
+~{white-fg}{moodIcon} Jeltz:{/} "Me to do not lie!"
+~{white-fg}{moodIcon} Jeltz:{/} "If customer you are, I proof identity need!"
+~={"timeout":2};{white-fg}{moodIcon} Jeltz:{/} "If customer to be you want, must you register!"
+~{white-fg}{moodIcon} Jeltz:{/} "{bold}Me to do not lie!{/}"
+~{white-fg}{moodIcon} Jeltz:{/} "{bold}Me to answer!{/}"
+
+#lobby-help
+{white-fg}{moodIcon} Jeltz:{/} "{bold}I grammar mercy no have!{/}"
+{white-fg}{moodIcon} Jeltz:{/} "{bold}You zapped be, register or login have!{/}"
+
+#lobby-user-enter
+{white-fg}{moodIcon} Jeltz:{/} "I user %s enter detected!"
+{white-fg}{moodIcon} Jeltz:{/} "I all you at look!"
+
+#lobby-user-exit
+{white-fg}{moodIcon} Jeltz:{/} "I user %s detected exit!"
+{white-fg}{moodIcon} Jeltz:{/} "I still all you at look!"
+
+#lobby-feeling-worst
+{yellow-fg}Arrghh!! %s did something inappropriate with/to/against/outside/inside/for Jeltz {moodIcon}{/}
+
+#lobby-feeling-better
+{yellow-fg}Super-jinzy %s managed to calm down Jeltz {moodIcon}{/}
+
+#lobby-feeling-zap
+{white-fg}{moodIcon} Jeltz{/}: "I better feel!"
+{yellow-fg}Sadly %s is feeling less better, having been transformed into a purple cloud of sub-atomic components.{/}
+
+#lobby-username-ask
+{white-fg}{moodIcon} Jeltz:{/} "{bold}User name me tell!{/}"
+
+#lobby-password-ask
+{white-fg}{moodIcon} Jeltz:{/} "{bold}User password me tell!{/}"
+
+#lobby-wrong-login
+{white-fg}{moodIcon} Jeltz:{/} "{bold}You not are who you are!{/}"
+
+#lobby-command-unknown-normal
+{white-fg}{moodIcon} Jeltz:{/} "I you not understand! (1/3)"
+
+#lobby-command-unknown-upset
+{white-fg}{moodIcon} Jeltz:{/} {bold}"I you not understand! (2/3)"{/}
+
+#lobby-command-unknown-angry
+{white-fg}{moodIcon} Jeltz:{/} {red-fg}{bold}"I you not understand! (3/3)"{/}
+{white-fg}{moodIcon} Jeltz:{/} {red-fg}{bold}"I you ZAP! (3/3)"{/}
+
+#lobby-zap
+{red-fg}{bold}".....bzzzzzzzzzZZZZZZZ...."{/}
+
+...after a few milliseconds you start feeling a strange vibration, a vibration coming from inside. It looks like your own atoms are singing a Carmina Burana song. With the Ooooooooos substituted by Zzzzzzzzzs.
+
+{red-fg}{bold}".....ZZZZzzzzZZZZZzzzz...."{/}
+
+#lobby-zap-end
+EnZzZoy anZ ZzZhare!
+---
+
+//*****************************************
+// REGISTRATION
+//*****************************************
+#registration-status-top
+{magenta-fg}{bold}The Registration Office.{/}
+
+#registration-description
+{magenta-fg}{bold}I.T. S.Ac.S. Registration Department{/}
+
+This is a really cozy office! You are already feeling very warm and comfortable, event with yourself. You are feeling quite positive. It looks like to be at home, laing down on your best sofa. Really, really cozy! The office's furniture is at the same time elegant and welcoming, {magenta-fg}thanks{/magenta-fg} {blue-fg}to{/blue-fg} {red-fg}the{/red-fg} {cyan-fg}incredibly{/cyan-fg} {blue-bg}relaxing{/blue-bg} {red-bg}color{/red-bg} {yellow-bg}selection{/yellow-bg}, all the pillows and probably also thanks to the Cerebrolitich Gamma Jamma ray that is insistently scanning your forehead.
+
+#registration-enter
+{white-fg}Mrs. Guilford:{/} {yellow-bg}"Welcome my dear! My name is Mrs. Margareth Guilford, but you can call me Mrs. Guiltford. As you might already know, we use and enforce the highest security standards to protect our dear customers' data and privacy. For sure you understand I will need to collect some personal information and some DNA samples as well. Do not worry, it will be quick and painless."{/}
+
+{white-fg}Mrs. Guilford:{/} {yellow-bg}"My smoothie! Let's start the registration process. Do we, dear?."{/}
+
+#registration-kick-out
+{yellow-fg}A surprisingly strong Mrs. Guilford kicks %s out of the door.{/}
+
+#registration-angry-mrs
+{white-fg}Mrs. Guilford:{/} {yellow-bg}{red-fg}"YOU BASTARD! I TOLD YOU TO CALL ME Mrs. Guiltford!!! DID I!?!??."{/}
+{white-fg}Mrs. Guilford:{/} {yellow-bg}{red-fg}"YOU SUB-APE! GO AWAYYYY!!!!!!."{/}
+
+#registration-angry-no
+{white-fg}Mrs. Guilford:{/} {yellow-bg}{red-fg}"YOU USELESS PEACE OF BURP! NO!?!? YOU SAID NO?!?!."{/}
+{white-fg}Mrs. Guilford:{/} {yellow-bg}{red-fg}"YOU MONKEY! GO AWAYYYY!!!!!!."{/}
+
+#registration-invalid-username
+{white-fg}Mrs. Guilford:{/} {yellow-bg}{red-fg}"YOU BIG FART OF BROKEN DNA!!! FOR SURE NOBODY GAVE YOU A NAME!!! LEAVE NOW!!!"{/}
+
+#registration-invalid-password
+{white-fg}Mrs. Guilford:{/} {yellow-bg}{red-fg}"YOU PROTO-AMOEBA!!! ALSO YOUR PARENTS WHERE NOT SECURITY CONSCIOUS!!! GO, GO, GOOOO!!!"{/}
+
+#registration-invalid-email
+{white-fg}Mrs. Guilford:{/} {yellow-bg}{red-fg}"YOU LITTLE PIECE OF UNREACEABLE NOTHINGNESS!!! YOU ARE SO DESPERATELY USELESS NOBODY NEEDS TO EMAIL YOU!!! FWD TO: HELL!!!"{/}
+
+#registration-invalid
+{white-fg}Mrs. Guilford:{/} {yellow-bg}{red-fg}"YOU PATETIC LOW LEVEL LIFE FORM!!! YOU ARE NOT AUTHORIZED TO REGISTER!!! EVEN LESS AUTHORIZED TO BREATH!!! DISAPPEAR!!! PUFFF!!!"{/}
+
+#registration-no
+{white-fg}Mrs. Guilford:{/} {yellow-bg}{red-fg}"YOU STINKY SEMI-ORGAINC FLUID!??! YOU SAY NO TO ME!?! YOU ARE A NO-THING!!! GET OUT AND LEAVE NO-TRACE!!!!"{/}
+
+#registration-help
+{white-fg}Mrs. Guilford:{/} {yellow-bg}"My dear, I.T. S.Ac.S is not in the counseling business. You should see a therapist, Priest, Rabbi, Algorian Ratox or an High Servant Of The ."{/}
+
+#registration-user-enter
+{yellow-fg}A dreamy-stunned-looking %s just entered the cozy office.{/}
+
+{white-fg}Mrs. Guilford:{/} {yellow-bg}"My sweaty cookies! Another possible customer!"{/}
+
+#registration-user-exit
+{yellow-fg}%s reluctantly exits the cozy office. He looks kind of sad.{/}
+
+#registration-user-exit
+{yellow-fg}%s reluctantly exits the cozy office. He looks kind of sad.{/}
+
+#registration-question-username
+{white-fg}Mrs. Guilford:{/} {yellow-bg}"Oh dear, can you please type your desired account's username?"{/}
+
+#registration-question-password
+{white-fg}Mrs. Guilford:{/} {yellow-bg}"Sweaty, can you please type your preferred super-secure password?"{/}
+
+#registration-question-email
+{white-fg}Mrs. Guilford:{/} {yellow-bg}"Cookie, where can we contact you with absolutely no-spam email?"{/}
+
+#registration-question-color
+{white-fg}Mrs. Guilford:{/} {yellow-bg}"Darling, which is your less preferred color?"{/}
+
+#registration-question-place
+{white-fg}Mrs. Guilford:{/white-fg} {yellow-bg}"Sugar, where would you like to live?"{/yellow-bg}
+
+#registration-question-beloved
+{white-fg}Mrs. Guilford:{/white-fg} {yellow-bg}"My light, what is the name of your beloved one?"{/yellow-bg}
+
+//*****************************************
+// ACCOUNTING
+//*****************************************
+#accounting-status-top
+{magenta-fg}{bold}A.T.M.{/}
+
+#accounting-description
+{magenta-fg}{bold}Accounting Troubled Machine{/}
+
+#accounting-help
+{white-bg}{black-fg}                                                                {/}
+{white-bg}{black-fg}                    D.U.S. Help System                          {/}
+{white-bg}{black-fg}                                                                {/}
+{white-bg}{black-fg}  1 - You chose your paranoia.                                  {/}
+{white-bg}{black-fg}  2 - Sometimes it takes me all day to get nothing done.        {/}
+{white-bg}{black-fg}  3 - You couldn't handle me, even if I came with instructions. {/}
+{white-bg}{black-fg}  4 - If time is money, you are running out of time.            {/}
+{white-bg}{black-fg}  5 - I'm so HOT, I make fire!                                  {/}
+{white-bg}{black-fg}                                                                {/}
+
+#accounting-enter
+{white-bg}{black-fg}   A.T.M. D.U.S. v0.3 (c) 1492 Sirius Cybernetics Corporation   {/}
+{white-bg}{black-fg}                                                                {/}
+{white-bg}{black-fg}                      ACCOUNTING MENU                           {/}
+{white-bg}{black-fg}                                                                {/}
+{white-bg}{black-fg}            F - add <accountId> <yyyy/mm/dd> <comment>          {/}
+{white-bg}{black-fg}            A - delete <record-id>                              {/}
+{white-bg}{black-fg}            I - list <?month-number> <?year-name>               {/}
+{white-bg}{black-fg}            L - send <email> <recordId> [, ...]                 {/}
+{white-bg}{black-fg}            U - menu                                            {/}
+{white-bg}{black-fg}            R - help                                            {/}
+{white-bg}{black-fg}            E - quit                                            {/}
+{white-bg}{black-fg}                                                                {/}
+
+#accounting-add-result
+{white-bg}{black-fg}            New Record Added: %s                                {/}
+
+#accounting-add-error-account-id
+{red-bg}{white-fg}            E1217: invalid developer account ID                 {/}
+{red-bg}{white-fg}            E4235: invalid developer account ID                 {/}
+{red-bg}{white-fg}            E0109: invalid developer account ID                 {/}
+{red-bg}{white-fg}            E5387: invalid error reporting                      {/}
+
+#accounting-add-error-date
+{red-bg}{white-fg}            E3121: disk re-formatted                            {/}
+{red-bg}{white-fg}            E2001: insane date format                           {/}
+{red-bg}{white-fg}            E3122: disk re-formatted bogus message              {/}
+
+#accounting-delete-result
+{white-bg}{black-fg}  Record Deleted: %s                                            {/}
+
+#accounting-delete-error
+{red-bg}{white-fg}            E3122: crashing....                                 {/}
+{red-bg}{white-fg}            E3121: invalid record id                            {/}
+{red-bg}{white-fg}            E2001: deleting all other records                   {/}
+
+#accounting-list-result
+{white-bg}{black-fg}                          REPORTS                               {/}
+{black-fg}{green-bg}[recordId] accountId, date, comment{/}
+%s
+{white-bg}{black-fg}                                                                {/}
+
+#accounting-list-error
+{red-bg}{white-fg}            E0020: no records in database                       {/}
+{red-bg}{white-fg}            E0200: no database in system                        {/}
+{red-bg}{white-fg}            E2000: no system                                    {/}
+
+#accounting-send-result
+{white-bg}{black-fg}             MAIL probably SENT to the right address            {/}
+
+#accounting-send-error
+{red-bg}{white-fg}            E4241: total amount $42.000.000                     {/}
+{red-bg}{white-fg}            E4242: mailed invoice to taso@toptal.com            {/}
+
+//*****************************************
+// SPONSORS
+//*****************************************
+#sponsor-1
+{cyan-fg}{magenta-bg}       VISIT THE LUXURIOUS WORLDS OF REBLASTA BIDONI V        {/}
+
+%s
+
+{cyan-fg}{magenta-bg}        You will be able to enjoy the most expensive          {/}
+{cyan-fg}{magenta-bg}           and infesting holidays ever conceived!             {/}
+
+#sponsor-2
+{white-fg}{blue-bg} _____ ..... ++++++ ****** Milliways ****** ++++++ ..... _____ {/}
+
+%s
+
+{white-fg}{blue-bg}    At the end (of the universe) you will dine at our place!   {/}
+{white-fg}{blue-bg}         Call us at 555-THE-END for more information.          {/}
+
+#sponsor-3
+{black-fg}{yellow-bg}                      QUESTIONABLE BREATH                    {/}
+{black-fg}{yellow-bg}                       can't be cured by                     {/}
+{black-fg}{yellow-bg}                    QUESTIONABLE MOUTHWASHES                 {/}
+
+%s
+
+{black-fg}{yellow-bg}                        Use CLISTERINE...                    {/}
+{black-fg}{yellow-bg}       it has a 42 million year record of positive results.  {/}
+
+//*****************************************
+// SPAM
+//*****************************************
+#spam-subject-1
+RE: travel reservation probem for your trip to {place} with {beloved}
+
+#spam-1
+Hi {username}!
+
+VISIT THE LUXURIOUS WORLDS OF REBLASTA BIDONI V
+
+You will be able to enjoy the most expensive and infesting holidays ever conceived!
+
+Share and Enjoy!
+
+===
+Eccentrico Gallumbis || Accounting Officer || Sirius Cybernetics Corporation || ++42 555 NO-COMPLAINS (phone) || Eccentrico.Gallumbis.SCC (sub-eta)
+
+#spam-subject-2
+Your {place} photos
+
+#spam-2
+Hi {username}!
+
+QUESTIONABLE BREATH can't be cured by QUESTIONABLE MOUTHWASHES!
+
+Use CLISTERINE... it has a 42 million year record of positive results.
+
+Share and Enjoy!
+
+===
+Eccentrico Gallumbis || Accounting Officer || Sirius Cybernetics Corporation || ++42 555 NO-COMPLAINS (phone) || Eccentrico.Gallumbis.SCC (sub-eta)
+
+#spam-subject-3
+New {color} mobile phones
+
+#spam-3
+Hi {username}!
+
+_____ ..... ++++++ ****** Milliways ****** ++++++ ..... _____
+
+At the end (of the universe) you will dine at our place!
+
+Call us at 555-THE-END for more information.
+
+Open till THE END! With all shades of {color}!
+
+Share and Enjoy!
+
+===
+Eccentrico Gallumbis || Accounting Officer || Sirius Cybernetics Corporation || ++42 555 NO-COMPLAINS (phone) || Eccentrico.Gallumbis.SCC (sub-eta)
+
