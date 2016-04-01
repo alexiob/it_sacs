@@ -58,7 +58,7 @@ You are in the system's lobby and, I must say, it is and incredible technology a
 
 From here you can go to the accounting management desk, to the customer registration office or to through the exit. Yes, that slick, frictionless, total black awesomeness is the exit!
 
-Oh yes, there is also a black-on-black Massive Damage's TZ-141 Mark 7 robotic guard! It looks quite impressive as well! Especially when somebody stares at it from the wrong side of its Disrupt-O-Matic Mega-Zap V3 gun. {bold}Not unlikely as you are doing it right now!{/bold}
+Oh yes, there is also a black-on-black Massive Damage's TZ-141 Mark 7 robotic guard! It looks quite impressive as well! Especially when somebody stares at it from the wrong side of its Disrupt-O-Matic Mega-Zap V3 gun. {bold}Not unlikely as you are doing right now!{/bold}
 
 #lobby-description-restart
 {yellow-fg}Bing! Bing!{/}
