@@ -44,8 +44,8 @@
         }
     },
     "banners": [
-        {"id":"it-sacs", "font":"colossal", "text":"I.T. S.Ac.S."},
-        {"id":"zap", "font":"speed", "text":"ZZzzappp!!!!"}
+        {"id":"it-sacs", "font":"Colossal", "text":"I.T. S.Ac.S."},
+        {"id":"zap", "font":"Speed", "text":"ZZzzappp!!!!"}
     ],
     "unknownMessagesCount": 3,
     "sponsorMessagesCount": 3,
