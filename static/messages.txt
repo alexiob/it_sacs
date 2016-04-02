@@ -43,7 +43,7 @@ Our marketing department and engineers have found a way to make your accounting 
 
 Your computer will now be able to understand your erratic and unstable emotions because it will have its own preset range of emotions. A few of the personality styles we have to offer are cheerful, gloomy, paranoid, and nurturing. There is a GPP that is ideal for every situation. The integration of emotionally aware systems is proven to improve the fun of the user, their educational experience, comfort level, and ability to improve the user's work-flow.
 
-We are really really excited about this new product! It will revolutionize your work life!!
+We are really really excited about this new product! It will revolutionize your life!!
 
 Enjoy and share!
 ---
@@ -54,7 +54,7 @@ Enjoy and share!
 #lobby-description
 {magenta-fg}{bold}The Lobby.{/}
 
-You are in the system's lobby and, I must say, it is and incredible technology achievement. The best of the latest UI/UX design patterns have been applied using the renowned Italian "gusto"! A real joy and pleasure for every respectful software engineer. State of the art is and understatement!
+You are in the system's lobby and, I must say, it is and incredible technology achievement. The best of the latest UI/UX design patterns have been applied using the renowned Italian "gusto"! A real joy and pleasure for every respectful software engineer. State of the art is an understatement!
 
 From here you can go to the accounting management desk, to the customer registration office or to through the exit. Yes, that slick, frictionless, total black awesomeness is the exit!
 
