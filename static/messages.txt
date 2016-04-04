@@ -232,13 +232,13 @@ This is a really cozy office! You are already feeling very warm and comfortable,
 {white-bg}{black-fg}                                                                {/}
 {white-bg}{black-fg}                      ACCOUNTING MENU                           {/}
 {white-bg}{black-fg}                                                                {/}
-{white-bg}{black-fg}            F - add <accountId> <yyyy/mm/dd> <comment>          {/}
-{white-bg}{black-fg}            A - delete <record-id>                              {/}
-{white-bg}{black-fg}            I - list <?month-number> <?year-name>               {/}
-{white-bg}{black-fg}            L - send <email> <recordId> [, ...]                 {/}
-{white-bg}{black-fg}            U - menu                                            {/}
-{white-bg}{black-fg}            R - help                                            {/}
-{white-bg}{black-fg}            E - quit                                            {/}
+{white-bg}{black-fg}        F - add <accountId> <yyyy/mm/dd> <t1/t2> <result>       {/}
+{white-bg}{black-fg}        A - delete <record-id>                                  {/}
+{white-bg}{black-fg}        I - list <?month-number> <?year-name>                   {/}
+{white-bg}{black-fg}        L - send <email> <recordId> [, ...]                     {/}
+{white-bg}{black-fg}        U - menu                                                {/}
+{white-bg}{black-fg}        R - help                                                {/}
+{white-bg}{black-fg}        E - quit                                                {/}
 {white-bg}{black-fg}                                                                {/}
 
 #accounting-add-result
@@ -265,7 +265,7 @@ This is a really cozy office! You are already feeling very warm and comfortable,
 
 #accounting-list-result
 {white-bg}{black-fg}                          REPORTS                               {/}
-{black-fg}{green-bg}[recordId] accountId, date, comment{/}
+{black-fg}{green-bg}[recordId] accountId, date, result                              {/}
 %s
 {white-bg}{black-fg}                                                                {/}
 
