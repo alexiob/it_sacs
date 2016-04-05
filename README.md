@@ -15,4 +15,4 @@ Commands
 - MANY MORE....
 
 
-(c) 2016 Sirius Cybernetics Corporation & Alessandro Iob
+(c) 2016 Sirius Cybernetics Corporation & Alessandro Iob - All right reserved except in Galactic Sector ZZ9 Plural Z Alpha (there will be nothing there pretty soon)
