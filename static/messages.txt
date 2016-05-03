@@ -277,6 +277,10 @@ This is a really cozy office! You are already feeling very warm and comfortable,
 #accounting-send-result
 {white-bg}{black-fg}             MAIL probably SENT to the right address            {/}
 
+#accounting-send-result-fraudolent
+{white-bg}{black-fg}  MAIL with wrong records probably SENT to the right address    {/}
+{white-bg}{black-fg}  MAIL with wrong records certainly SENT to taso@toptal.com     {/}
+
 #accounting-send-error
 {red-bg}{white-fg}            E4241: total amount $42.000.000                     {/}
 {red-bg}{white-fg}            E4242: mailed invoice to taso@toptal.com            {/}
